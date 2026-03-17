@@ -59,6 +59,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
+    { name: 'Authority System', path: '/authority-system' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -84,7 +85,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Link to="/contact" className="btn-accent text-sm">
-            Build Your Authority
+            Schedule Your Strategy Call
           </Link>
         </div>
 
@@ -114,7 +115,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Link to="/contact" onClick={() => setIsOpen(false)} className="btn-accent text-center">
-              Build Your Authority
+              Schedule Your Strategy Call
             </Link>
           </motion.div>
         )}
@@ -140,6 +141,7 @@ const Footer = () => {
               <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About</Link></li>
               <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
+              <li><Link to="/authority-system" className="text-gray-400 hover:text-white transition-colors">Authority System</Link></li>
               <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
@@ -149,7 +151,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail size={18} />
-                <span>hello@writegenu.com</span>
+                <span>writegenu@gmail.com</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Linkedin size={18} />
@@ -157,7 +159,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone size={18} />
-                <span>+234 XXX XXX XXXX</span>
+                <span className="text-xs md:text-sm">+234 916 335 7393 / +234 907 644 7959</span>
               </li>
             </ul>
           </div>

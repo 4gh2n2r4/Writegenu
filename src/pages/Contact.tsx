@@ -25,10 +25,7 @@ const Contact = () => {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">Let’s Build Your Influence</h1>
-            <p className="text-xl text-purple-200 leading-relaxed mb-12">
-              Whether you’re ready to start now or exploring options, we’re here to help.
-            </p>
+            <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">Let’s Build Your Authority</h1>
 
             <div className="space-y-8">
               <div className="flex items-center space-x-6">
@@ -37,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-purple-300 uppercase tracking-widest font-bold">Email Us</p>
-                  <p className="text-lg">hello@writegenu.com</p>
+                  <p className="text-lg">writegenu@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center space-x-6">
@@ -55,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-purple-300 uppercase tracking-widest font-bold">Call Us</p>
-                  <p className="text-lg">+234 XXX XXX XXXX</p>
+                  <p className="text-lg">+234 916 335 7393<br />+234 907 644 7959</p>
                 </div>
               </div>
             </div>
@@ -135,7 +132,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <button type="submit" className="w-full btn-accent flex items-center justify-center space-x-2 py-4">
-                  <span>Schedule Your Strategy Session</span>
+                  <span>Schedule Your Strategy Call</span>
                   <Send size={18} />
                 </button>
               </form>

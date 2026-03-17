@@ -6,28 +6,22 @@ import { ArrowRight, CheckCircle2, PenTool, Target, UserCheck, LayoutDashboard }
 const Services = () => {
   const services = [
     {
-      title: "Authority Content Creation",
-      icon: <PenTool size={32} />,
-      desc: "Turn your expertise into posts, articles, and stories that position you as a thought leader.",
-      includes: ["Long-form posts", "Case-study breakdowns", "Story-driven thought leadership"]
+      title: "Full Content & Visibility Management",
+      icon: <LayoutDashboard size={32} />,
+      desc: "Outcome: A content engine that runs without your time, producing authority that compounds every week.\n\nA full-service content management solution for founders who want to dominate their industry's conversation without spending hours writing. We handle everything from strategy to publishing.",
+      includes: ["Monthly content strategy", "Multi-platform posting", "Engagement & visibility tracking"]
     },
     {
       title: "Ghostwriting & Thought Leadership",
       icon: <UserCheck size={32} />,
-      desc: "We write in your voice, ensuring every post, article, or newsletter reflects your authority and attracts your ideal audience.",
+      desc: "Outcome: A clear, commanding industry voice that makes your expertise impossible to overlook.\n\nWe help you define your unique perspective, extract your authentic voice, and position you as a leading authority in your niche through strategic thought leadership.",
       includes: ["Voice extraction sessions", "Signature tone manual", "Ongoing content creation"]
     },
     {
-      title: "Founder Positioning & Message Strategy",
+      title: "The Authority Content Audit",
       icon: <Target size={32} />,
-      desc: "We craft your unique positioning and messaging so the market recognizes your expertise instantly.",
+      desc: "Outcome: A complete roadmap for your authority, showing you exactly where your message is weak and how to fix it.\n\nA deep-dive analysis of your current content, messaging, and positioning. We identify gaps in your authority and provide a clear roadmap for improvement.",
       includes: ["Positioning blueprint", "Messaging map", "Signature story development"]
-    },
-    {
-      title: "Full Content & Visibility Management",
-      icon: <LayoutDashboard size={32} />,
-      desc: "A done-for-you service where we create, manage, and amplify all content across platforms.",
-      includes: ["Monthly content strategy", "Multi-platform posting", "Engagement & visibility tracking"]
     }
   ];
 
@@ -94,7 +88,7 @@ const Services = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-8">Your voice is your most valuable asset. Let’s make it visible.</h2>
           <Link to="/contact" className="btn-accent text-lg inline-flex items-center space-x-2">
-            <span>Book Your Discovery Call</span>
+            <span>Schedule Your Strategy Call</span>
             <ArrowRight size={20} />
           </Link>
         </div>
