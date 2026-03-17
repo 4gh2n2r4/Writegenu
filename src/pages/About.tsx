@@ -21,7 +21,7 @@ const About = () => {
             className="max-w-3xl"
           >
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">Why WriteGenu Exists</h1>
-            <p className="text-xl text-purple-200 leading-relaxed">
+            <p className="text-xl text-gray-300 leading-relaxed">
               We believe every founder deserves to be recognized for their expertise. Visibility is not luck; it’s strategy. Influence is not optional; it’s essential.
             </p>
           </motion.div>
@@ -70,7 +70,7 @@ const About = () => {
       </section>
 
       {/* Philosophy */}
-      <section className="section-padding bg-purple-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-display font-bold text-primary mb-4">Our Philosophy</h2>
@@ -82,7 +82,7 @@ const About = () => {
               { title: "Influence grows with consistency", desc: "Regular, high-quality communication builds trust over time." },
               { title: "The founder’s voice is the brand", desc: "Authenticity is the most powerful tool in a founder's arsenal." }
             ].map((item, idx) => (
-              <div key={idx} className="bg-white p-10 rounded-2xl shadow-sm text-center border border-purple-100">
+              <div key={idx} className="bg-white p-10 rounded-2xl shadow-sm text-center border border-gray-100">
                 <h3 className="text-xl font-display font-bold text-primary mb-4">{item.title}</h3>
                 <p className="text-gray-600">{item.desc}</p>
               </div>

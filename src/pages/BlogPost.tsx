@@ -32,7 +32,7 @@ const articles = {
         </ul>
 
         <h3 className="text-2xl font-display font-bold text-primary mt-12 mb-6">Strategy Insight:</h3>
-        <p className="bg-purple-50 p-6 rounded-xl border-l-4 border-primary mb-10">
+        <p className="bg-gray-50 p-6 rounded-xl border-l-4 border-primary mb-10">
           Authority content reveals the way you think about problems, decisions, and solutions.
         </p>
 

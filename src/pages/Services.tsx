@@ -34,7 +34,7 @@ const Services = () => {
       className="pt-20"
     >
       {/* Hero */}
-      <section className="section-padding bg-purple-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ const Services = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="p-10 rounded-3xl bg-white border border-purple-100 shadow-sm hover:shadow-xl transition-all group"
+                className="p-10 rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl transition-all group"
               >
                 <div className="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mb-8 group-hover:bg-accent transition-colors">
                   {service.icon}

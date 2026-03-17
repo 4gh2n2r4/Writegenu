@@ -51,7 +51,7 @@ const AuthoritySystem = () => {
             
             <div className="space-y-12">
               <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">1</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">1</div>
                 <div>
                   <h3 className="text-xl font-display font-bold text-primary mb-3">Voice Extraction & Message Strategy</h3>
                   <p>We do not invent a voice for you. We find the one you already have. Through a deep-dive interview process, we extract your authentic language, your core beliefs, your unique stories, and your specific way of solving problems. We then map this against your business goals to create a message strategy that is both authentic to you and attractive to your ideal market.</p>
@@ -59,7 +59,7 @@ const AuthoritySystem = () => {
               </div>
 
               <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">2</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">2</div>
                 <div>
                   <h3 className="text-xl font-display font-bold text-primary mb-3">The Authority Engine</h3>
                   <p>This is the production phase. Using the extracted voice and the defined strategy, WriteGenu builds a consistent stream of high-impact content — articles, posts, newsletters, and thought leadership pieces — that reflect your expertise with precision. This is where your knowledge becomes visible, and where your influence begins to compound.</p>
@@ -67,7 +67,7 @@ const AuthoritySystem = () => {
               </div>
 
               <div className="flex gap-6">
-                <div className="flex-shrink-0 w-12 h-12 bg-purple-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">3</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-100 text-primary rounded-xl flex items-center justify-center font-bold text-xl">3</div>
                 <div>
                   <h3 className="text-xl font-display font-bold text-primary mb-3">Visibility Management</h3>
                   <p>Content is only half the battle. The other half is ensuring that content reaches the right people. We manage the distribution and amplification of your message across the platforms where your ideal clients, partners, and peers spend their time. We ensure you are showing up consistently, professionally, and authoritatively — without you having to lift a finger.</p>
@@ -82,7 +82,7 @@ const AuthoritySystem = () => {
             <p>This is the power of a visibility infrastructure. It is the difference between having expertise and having authority.</p>
           </div>
 
-          <div className="mt-20 p-12 bg-purple-50 rounded-3xl border border-purple-100 text-center">
+          <div className="mt-20 p-12 bg-gray-50 rounded-3xl border border-gray-100 text-center">
             <h3 className="text-2xl font-display font-bold text-primary mb-6">Ready to Build Your Visibility Infrastructure?</h3>
             <p className="text-lg text-gray-600 mb-10">The first step is a strategy call to see if the system is the right fit for your goals.</p>
             <Link to="/contact" className="btn-accent text-lg inline-flex items-center space-x-2">
@@ -94,7 +94,7 @@ const AuthoritySystem = () => {
       </section>
 
       {/* Benefits Grid */}
-      <section className="section-padding bg-purple-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-sm">

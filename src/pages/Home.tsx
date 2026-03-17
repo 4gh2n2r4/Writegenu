@@ -47,7 +47,7 @@ const Home = () => {
       className="overflow-hidden"
     >
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-20 bg-gradient-to-br from-white to-purple-50 overflow-hidden">
+      <section className="relative min-h-screen flex items-center pt-20 bg-white overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 pointer-events-none">
           <motion.div
@@ -246,7 +246,7 @@ const Home = () => {
               { step: "03", title: "Content Creation", desc: "Crafting high-impact posts and articles in your voice." },
               { step: "04", title: "Visibility Growth", desc: "Strategic distribution to amplify your reach and influence." }
             ].map((item, idx) => (
-              <div key={idx} className="relative p-8 rounded-2xl bg-purple-50 border border-purple-100">
+              <div key={idx} className="relative p-8 rounded-2xl bg-gray-50 border border-gray-100">
                 <span className="text-4xl font-display font-bold text-primary/10 absolute top-4 right-6">{item.step}</span>
                 <h3 className="text-xl font-display font-bold mb-3 text-primary">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
@@ -257,7 +257,7 @@ const Home = () => {
       </section>
 
       {/* Section 3: Why Choose WriteGenu */}
-      <section className="section-padding bg-purple-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-4">Why Choose WriteGenu</h2>
@@ -280,7 +280,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="p-8 rounded-2xl bg-white border border-purple-100 hover:shadow-lg transition-all"
+                className="p-8 rounded-2xl bg-white border border-gray-100 hover:shadow-lg transition-all"
               >
                 <div className="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center mb-6">
                   {item.icon}
@@ -317,7 +317,7 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
-            <div className="bg-purple-50 p-12 rounded-3xl border border-purple-100 text-center">
+            <div className="bg-gray-50 p-12 rounded-3xl border border-gray-100 text-center">
               <p className="text-xl text-primary font-display font-bold mb-6 italic">"Client results, testimonials, and case studies are available upon request. WriteGenu is currently accepting founding clients for its inaugural Authority Builder and Influence Engine programs."</p>
               <Link to="/authority-system" className="text-accent font-bold flex items-center justify-center space-x-2 hover:underline">
                 <span>See how the system works — Read the WriteGenu Authority System</span>
@@ -350,7 +350,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="p-8 rounded-2xl bg-purple-50 border border-purple-100 flex flex-col justify-between"
+                className="p-8 rounded-2xl bg-gray-50 border border-gray-100 flex flex-col justify-between"
               >
                 <p className="text-gray-700 italic mb-6 leading-relaxed">"{t.quote}"</p>
                 <div>
@@ -364,7 +364,7 @@ const Home = () => {
       </section>
 
       {/* Section 4: Featured Services */}
-      <section className="section-padding bg-purple-50">
+      <section className="section-padding bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
             <div>
@@ -385,10 +385,10 @@ const Home = () => {
               <motion.div
                 key={idx}
                 whileHover={{ scale: 1.02 }}
-                className="bg-white p-10 rounded-2xl shadow-sm border border-purple-100 flex justify-between items-center group cursor-pointer"
+                className="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 flex justify-between items-center group cursor-pointer"
               >
                 <h3 className="text-xl font-display font-bold text-primary group-hover:text-accent transition-colors">{service}</h3>
-                <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all">
+                <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all">
                   <ArrowRight size={20} />
                 </div>
               </motion.div>
@@ -433,7 +433,7 @@ const Home = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="border-b border-purple-100 pb-8"
+                className="border-b border-gray-100 pb-8"
               >
                 <h3 className="text-xl font-display font-bold text-primary mb-4">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>

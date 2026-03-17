@@ -19,7 +19,7 @@ const Contact = () => {
       transition={{ duration: 0.4 }}
       className="pt-20"
     >
-      <section className="section-padding bg-gradient-to-br from-primary to-purple-900 text-white">
+      <section className="section-padding bg-primary text-white">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -33,7 +33,7 @@ const Contact = () => {
                   <Mail className="text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm text-purple-300 uppercase tracking-widest font-bold">Email Us</p>
+                  <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">Email Us</p>
                   <p className="text-lg">writegenu@gmail.com</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                   <Linkedin className="text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm text-purple-300 uppercase tracking-widest font-bold">LinkedIn</p>
+                  <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">LinkedIn</p>
                   <p className="text-lg">linkedin.com/in/ogheneropeter</p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const Contact = () => {
                   <Phone className="text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm text-purple-300 uppercase tracking-widest font-bold">Call Us</p>
+                  <p className="text-sm text-gray-400 uppercase tracking-widest font-bold">Call Us</p>
                   <p className="text-lg">+234 916 335 7393<br />+234 907 644 7959</p>
                 </div>
               </div>
