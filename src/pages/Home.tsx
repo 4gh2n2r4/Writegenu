@@ -78,13 +78,14 @@ const Home = () => {
           />
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="lg:pr-10"
           >
-            <div className="h-[160px] md:h-[200px] flex items-center mb-6">
+            <div className="min-h-[140px] md:min-h-[180px] flex items-center mb-8">
               <AnimatePresence mode="wait">
                 <motion.h1 
                   key={loopKey}
@@ -92,7 +93,7 @@ const Home = () => {
                   initial="hidden"
                   animate="visible"
                   exit="exit"
-                  className="text-5xl md:text-7xl font-display font-bold text-primary leading-tight"
+                  className="text-5xl md:text-7xl font-display font-bold text-primary leading-[1.1]"
                 >
                   {words.map((word, idx) => (
                     <motion.span
@@ -101,7 +102,7 @@ const Home = () => {
                       className="inline-block mr-3 last:mr-0"
                     >
                       {word === "Influence" ? (
-                        <span className="text-accent">{word}</span>
+                        <span className="text-accent underline underline-offset-8 decoration-accent/30">{word}</span>
                       ) : (
                         word
                       )}
@@ -110,7 +111,7 @@ const Home = () => {
                 </motion.h1>
               </AnimatePresence>
             </div>
-            <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-xl">
+            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl">
               WriteGenu transforms your knowledge, experience, and vision into authoritative content that attracts ideal clients, builds lasting trust, and positions you as the leader your industry needs.
             </p>
             <Link to="/contact" className="btn-accent inline-flex items-center space-x-2 text-lg">
